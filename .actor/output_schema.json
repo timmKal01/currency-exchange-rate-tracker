@@ -1,0 +1,11 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Output schema of Currency Exchange Rate Tracker",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Rates",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}

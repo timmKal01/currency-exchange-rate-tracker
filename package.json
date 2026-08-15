@@ -1,0 +1,15 @@
+{
+    "name": "currency-exchange-rate-tracker",
+    "version": "0.1.0",
+    "type": "module",
+    "description": "Current exchange rates and percent change over time via the official Frankfurter ECB reference rate API.",
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "dependencies": {
+        "apify": "^3.2.6"
+    },
+    "scripts": {
+        "start": "node src/main.js"
+    }
+}

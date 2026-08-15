@@ -1,0 +1,29 @@
+{
+    "title": "Currency Exchange Rate Tracker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "baseCurrency": {
+            "title": "Base currency",
+            "type": "string",
+            "editor": "textfield",
+            "description": "Three-letter ISO currency code to convert from, e.g. \"USD\", \"EUR\", \"GBP\".",
+            "default": "USD"
+        },
+        "targetCurrencies": {
+            "title": "Target currencies",
+            "type": "string",
+            "editor": "textfield",
+            "description": "Comma-separated three-letter currency codes to check, e.g. \"EUR,GBP,JPY\". Leave blank for all available currencies."
+        },
+        "daysBack": {
+            "title": "Compare to days ago",
+            "type": "integer",
+            "editor": "number",
+            "description": "Compute percent change versus the rate this many days ago (nearest available trading day is used for weekends/holidays).",
+            "default": 7,
+            "minimum": 1,
+            "maximum": 90
+        }
+    }
+}
