@@ -1,7 +1,7 @@
 {
     "actorSpecification": 1,
     "name": "currency-exchange-rate-tracker",
-    "title": "Currency Exchange Rate Tracker — Live Rates & Change",
+    "title": "Currency Exchange Rates: Live ECB Rates & Change",
     "description": "Get current exchange rates for a base currency against a list of others, plus the percent change over a chosen number of days. Official ECB reference rates, for finance and international ops teams.",
     "version": "0.1",
     "meta": {
