@@ -1,0 +1,53 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "baseCurrency",
+                    "currency",
+                    "currentRate",
+                    "currentDate",
+                    "comparisonRate",
+                    "comparisonDate",
+                    "percentChange"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "baseCurrency": {
+                        "label": "Base",
+                        "format": "text"
+                    },
+                    "currency": {
+                        "label": "Currency",
+                        "format": "text"
+                    },
+                    "currentRate": {
+                        "label": "Rate",
+                        "format": "number"
+                    },
+                    "currentDate": {
+                        "label": "Date",
+                        "format": "text"
+                    },
+                    "comparisonRate": {
+                        "label": "Earlier rate",
+                        "format": "number"
+                    },
+                    "comparisonDate": {
+                        "label": "Earlier date",
+                        "format": "text"
+                    },
+                    "percentChange": {
+                        "label": "% change",
+                        "format": "number"
+                    }
+                }
+            }
+        }
+    }
+}
